@@ -1,0 +1,91 @@
+#fifa ul,#fifa li{
+  margin:0;padding:0;list-style:none;
+}
+#fifa li{display:inline;padding:0 1em 0 0;}
+#fifa button{
+  border:none;
+  background:none;
+  width:10em;
+  text-align:left;
+}
+#fifa button:focus{
+  color:#fff;
+}
+#fifa #names button:focus{
+  font-weight:bold;
+  color:#000;
+}
+#fifa #countries{
+  background:#3c3;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  padding:.5em;
+  margin-bottom:.5em;
+}
+#fifa #position{
+  background:#999;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  padding:.5em;
+  margin-bottom:.5em;
+}
+#buttons{margin:1em 0;padding:0;}
+#buttons button{
+  background:#ccc;
+  padding:.5em;
+  border:none;
+  -moz-border-radius:2px;
+  border-radius:2px;
+  -webkit-border-radius:2px;
+  -moz-box-shadow:2px 2px 1px rgba(33,33,33,.4);
+}
+#buttons button.on{
+  background:#9c6;
+}
+#buttons li{display:inline;padding-right:10px;}
+.digit{font-weight:bold;padding:0 1em;}
+#fifa .summary,#slidenames{
+  -moz-border-radius:10px;
+  border-radius:10px;
+  -webkit-border-radius:10px; position:relative;display:block;
+  padding:1em;background:#369;color:#fff;margin-bottom:.5em;}
+#fifa .summary button{
+  width:4em;
+  position:absolute;
+  top:5px;
+  right:5px;
+  color:#fff;
+  font-weight:bold;
+}
+#fifa .summary span{display:block;padding-bottom:.5em;font-weight:bold;font-size:140%;}
+#names ul{
+  -moz-border-radius:10px;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-box-shadow:4px 4px 4px rgba(33,33,33,.4);
+  background:#ccc;
+  margin:1em 0;
+}
+a{color:#369;}
+#ft{margin-top:2em;}
+#fifa button span{
+  position:absolute;
+  top:0;left:-9999px;
+}
+.hid{visibility:hidden;}
+#player{
+  position:absolute;
+  top:0;left:-9999px;
+  width:10em;
+  padding:5px;
+  background:#ffc;
+  color:#000;
+  z-index:100;
+  font-weight:bold;
+  -moz-box-shadow:2px 2px 2px rgba(33,33,33,.4);
+}
+.on{background:#369;}
+#slidenames ul{overflow:auto;margin:0;padding:0;}
+#slidenames li{list-style:none;float:left;width:20em;padding-bottom:5px;}

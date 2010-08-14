@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font:11px Verdana, Geneva, sans-serif;
+	margin-left:2em;
+	background-color:#FFFFFF;
+}
+h1{
+	font:2em Georgia, "Times New Roman", Times, serif;
+}
+
+li { 
+	  list-style-type:none; 
+} 
+
+#posts{
+	border: 8px solid #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-bottom-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+	-moz-border-top-colors:  #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+	-moz-border-left-colors: #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+	-moz-border-right-colors:#897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+	padding: 5px 5px 5px 15px;
+	width: 370px;
+}
+
+.post{
+}
+.left{
+	float:left;
+	width:360px;
+}
+.right{
+	float:left;
+	margin-left:20px;
+	padding-left:20px;
+	border-left:1px solid #ccc;
+}
+p.em{
+	background-color:#FBFBFB;
+	border-color:#CCCCCC;
+	border-style:dotted;
+	border-width:1px 0;
+	color:#000000;
+	font:italic 1.5em georgia, "Times New Roman";
+	margin:0 0 10px;
+	padding:1em 20px;
+}
+
